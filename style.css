@@ -1,0 +1,49 @@
+body {
+     background-image: linear-gradient(to right , #423ad7, #a88922, #1e7909, #088f47, #078da0, #065fb1, #0535c1, #6c03d4, #b802e9,#f363e1, #ff0030);
+     background-size: 400% 400%;
+     animation: gradient 30s ease infinite;
+} 
+
+@keyframes gradient {
+     0% {
+          background-position: 0% 50%;
+     }
+     50% {
+          background-position: 100% 50%;
+     }
+     100% {
+          background-position: 0% 50%;
+     }
+} 
+
+/* Exercise 1 */
+.scroll-top {
+  float: right;
+}
+
+/* Exercise 7 */
+.display {
+     color: blue;
+     font-weight: bold;
+}
+
+/* Exercise 11 */
+.jquery {
+     background-color: white;
+     width: 70px;
+     border: 1px solid red;
+}
+
+/* Exercise 12 */
+.block {
+     position: absolute;
+     background-color: brown;
+     border-radius: 50%;
+     left: 40px;
+     width: 80px;
+     height: 80px;
+     margin: 5px;
+}
+
+     
+
